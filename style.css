@@ -1,0 +1,650 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: 0;
+font-family:'Poppins';
+
+}
+
+a.navbar-brand {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+
+
+
+.makanan h1{
+  font-weight: 500;
+}
+
+.menu_icon{
+  color: #fac031;
+  padding-bottom: 3px;
+}
+
+.Minuman h1{
+  font-weight: 600;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px; 
+  }
+.navbar-nav .nav-link {
+    padding: 10px;
+    font-family: 'poppins',sans-serif; 
+  }
+ 
+  .navbar-nav .nav-link:hover{
+    color: #ffffff;
+    text-shadow: rgba(255, 255, 255, 0.956);
+  }
+ 
+  .banner {
+    position: relative;
+    overflow: hidden;
+    height: 400px; /* Sesuaikan tinggi banner sesuai kebutuhan */
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    color: #fff;
+  }
+  
+  .banner-text h1 {
+    position: relative;
+    font-weight:500px;
+    font-weight: bold;
+    color: #E8F9FD;
+    font-family: 'Rampart One';
+  }
+  
+  .banner-text h1:hover{
+    color: #82d49a;
+    transition: 0.2s;
+  }
+  
+  
+  
+  .banner-text h5 {
+    font-size: 15px;
+    color: #E8F9FD;
+  }
+  
+  
+section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .display-4 {
+    color: #343a40;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .lead {
+    color: #6c757d;
+  }
+  
+/* support star */
+section .support{
+  margin-top: -50px;
+
+}
+
+.support .card {
+  border: none;
+}
+
+.support img{
+ border: 1px solid white;
+
+}
+.bi{
+  font-size: 30px;
+}
+
+a .bi{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+/* support end */
+
+
+/* dukung kami  start*/
+.social-media-section {
+  padding: 20px 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px; /* Adjust the space between icons */
+}
+
+.social-icons a {
+  font-size: 3rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-icons a.facebook:hover {
+  color: #3b5998; /* Facebook blue */
+}
+
+.social-icons a.instagram:hover {
+  color: #e4405f; /* Instagram pink */
+}
+
+.social-icons a.linkedin:hover {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.social-icons a.pinterest:hover {
+  color: #bd081c; /* Pinterest red */
+}
+
+.social-icons a.whatsapp:hover {
+  color: #25d366; /* WhatsApp green */
+}
+
+/* dukung kami  end*/
+
+
+/* style.css */
+
+/* Navbar */
+.navbar {
+  width: 100%;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+}
+
+/* Beranda */
+.bg-dark {
+  width: 100%;
+}
+
+#Beranda p{
+  text-align: center;
+}
+
+#Beranda p{
+  font-size: 15px;
+  text-align: center;
+}
+/* Pilihan */
+.bg-light {
+  width: 100%;
+}
+
+/* Menu makanan */
+.makanan {
+  width: 100%;
+}
+
+/* Menu minuman */
+.Minuman {
+  width: 100%;
+}
+
+/* Kode promo */
+.bg-dark.p-3 {
+  width: 100%;
+}
+
+/* Support card */
+.bg-dark.mt-1.p-1 {
+  width: 100%;
+}
+
+
+#Contact a{
+  text-decoration: none;
+}
+
+#Contact h1{
+  font-weight: 300;
+}
+
+
+div.gambar_kontak{
+  margin-top: 100px;
+}
+
+
+/* css footer start*/
+Footer li {
+  list-style: none;
+  }
+  
+  Footer a{
+    text-decoration: none;
+    }
+
+
+   /* CSS untuk efek hover pada tulisan di dalam footer */
+.Footer ul li a {
+  color: #d61313; /* Warna default teks (putih) */
+  transition: color 0.3s ease; /* Animasi perubahan warna dengan durasi 0.3 detik */
+  text-decoration: none;
+}
+
+.Footer ul li a:hover {
+  color: #921b1b; /* Warna teks akan berubah menjadi sedikit lebih terang saat dihover */
+}
+
+
+.vertical-line{
+  border-left: 1px solid #ddd;
+}
+
+.vertical-line ul{
+  list-style: none;
+  padding-left:0px;
+}
+
+.vertical-line ul li{
+  margin-left: 0px;
+  padding-left:100px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.vertical-line li{
+  padding-bottom: 5px;
+}
+
+.Footer li a{
+  color: white;
+}
+
+.Footer h4{
+  font-weight: bold;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .vertical-line {
+    border-left: none;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+
+  .vertical-line ul li{
+    margin-left: 0px;
+    padding-left:165px;
+    text-align: left;
+  }
+  
+  
+}
+/* css footer end*/
+
+/*menu makanan*/
+.content {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px;
+  margin-left: 30px;
+}
+.content img {
+  width: 400px;
+  height: auto;
+  margin-right: 25px; /*jarak antar foto*/
+}
+.article-makanan {
+  padding: 28px 0;
+  max-width: 700px;
+  line-height: 27px;
+}
+.article-makanan h2{
+  font-weight: 700;
+}
+.article-minuman {
+  padding: 35px 0;
+  max-width: 700px;
+  line-height: 27px;
+}
+.article-minuman h2{
+  font-weight: 700;
+}
+
+/* CSS Layout */
+
+/* icon makanan,minuman,dan buah */
+.Makanan img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s;
+}
+
+.Minuman img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s;
+}
+
+.Buah img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s;
+}
+
+.Makanan img:hover {
+  transform: scale(1.1);
+}
+.Minuman img:hover {
+  transform: scale(1.1);
+}
+.Buah img:hover {
+  transform: scale(1.1);
+}
+
+
+/* hover card start */
+
+/* CSS untuk card-makanan start */
+.card-makanan {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-makanan:hover, .card-makanan:focus-within {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* CSS untuk gambar di dalam card */
+.card-makanan {
+  overflow: hidden;
+}
+
+.card-makanan img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s;
+}
+
+.card-makanan img:hover {
+  transform: scale(1.1);
+}
+
+.card-makanan .card-body {
+  padding: 20px;
+  background: linear-gradient(145deg, #f3f4f6, #ffffff);
+  border-top: 1px solid #eeeeee;
+}
+
+.card-makanan .card-title {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-makanan .card-text {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.menu_icon {
+  margin-top: -17px; 
+  
+}
+
+.menu_icon i {
+  color: #ffcc00;
+  font-size: 1.2rem;
+  margin: 0 2px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  transition: background-color 1s, transform s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+/* hover card-makanan end */
+
+
+/*  CSS layouting Minuman */
+/*  Card-minuman start*/
+/* CSS untuk card */
+.card-minuman {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-minuman img:hover{
+ transform:  scale(1.1);
+}
+
+.card-minuman:hover, .card-minuman:focus-within {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* CSS untuk gambar di dalam card */
+.card-minuman img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s;
+}
+
+.card-minuman .card-body {
+  padding: 15px; /* Kurangi padding jika terlalu besar */
+  background: linear-gradient(145deg, #f3f4f6, #ffffff);
+  border-top: 1px solid #eeeeee;
+}
+
+.card-minuman .card-title {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 10px; /* Kurangi margin jika perlu */
+}
+
+.card-minuman .card-text {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px; /* Kurangi margin jika perlu */
+}
+
+.menu_icon {
+  margin-top: 5px; /* Sesuaikan margin atas dan bawah */
+  margin-bottom: 5px; /* Sesuaikan margin atas dan bawah */
+}
+
+.menu_icon i {
+  color: #ffcc00;
+  font-size: 1.2rem;
+  margin: 0 2px;
+}
+
+.btn{
+  background-color: #0ed84e;
+  border-color: #007bff;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+/*  Card-minuman end*/
+
+
+
+/* Menu makanan Start*/
+.content-section {
+  padding: 50px 0;
+}
+.content-section h2 {
+  margin-bottom: 20px;
+}
+.content-section img {
+  margin-bottom: 20px;
+}
+.content-section p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+@media (max-width: 768px) {
+  .content-section {
+      padding: 30px 0;
+  }
+  .content-section h2 {
+      font-size: 1.5rem;
+  }
+}
+/* Menu makanan End */
+
+
+/* Menu Minuman Start */
+.content-section {
+  padding: 50px 0;
+}
+.content-section h2 {
+  margin-bottom: 20px;
+}
+.content-section img {
+  margin-bottom: 20px;
+}
+.content-section p {
+  margin-bottom: 20px;
+  text-align: justify; /* Menambahkan properti text-align */
+}
+@media (max-width: 768px) {
+  .content-section {
+      padding: 30px 0;
+  }
+  .content-section h2 {
+      font-size: 1.5rem;
+  }
+
+  .kontak div h4{
+    padding-bottom: 5px;
+  }
+
+  .kontak div form{
+    padding: 25px;
+  }
+}
+/* Menu Minuman End */
+
+/* halaman Support start */
+a .bi-facebook{
+color: #4267B2;
+}
+a .bi-linkedin{
+color: #0a66c2;
+}
+
+a .bi-envelope-fill{
+color:rgb(255, 255, 255) ;
+b
+}
+
+a .bi-whatsapp{
+  color: #25D366;
+}
+/* halaman Support End */
+
+/* footer staert */
+.Footer {
+  background-color: #1b1b1b;
+  font-family: 'Poppins'sans-serif;
+}
+
+.Footer .container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Footer h4 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.Footer ul {
+  padding-left: 0;
+}
+
+.Footer ul li {
+  margin-bottom: 10px;
+}
+
+.Footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.Footer ul li a:hover {
+  color: #615EFC;
+}
+
+.Footer .form-control {
+  border: none;
+  border-radius: 0;
+}
+
+.Footer .btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 0;
+}
+
+.Footer .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.bg-darker {
+  background-color: #141414;
+}
+
+.Footer img:hover{
+  transform: scale(1.1);
+  transition: 1.5s;
+}
+
+footer .Logo-Website:hover{
+  color:  #615EFC;;
+}
+/* footer end */
